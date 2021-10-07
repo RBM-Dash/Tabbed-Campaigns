@@ -3,70 +3,75 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
     <title>Status of Malaria Campaigns</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <!-- <link rel="manifest" href="/site.webmanifest"> -->
     <!-- Google Font: Source Sans Pro -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="/assets/css/all.min.css">
 
     <!-- Theme style -->
-    <link rel="stylesheet" href="/assets/css/adminlte.min.css">
+    <link rel="stylesheet" href="/assets/css/Campaigns_styles_pure.min.css">
 </head>
 
-<body class="hold-transition text-sm">
+<body class="hold-transition text-sm" style="width:100%; line-height: 1">
     <div class="wrapper">
         <!-- Content Wrapper. Contains page content -->
         <div class="container-fluid">
             <!-- Main content -->
             <section class="content">
                 <div class="container-fluid">
-                    <div class="card card-primary card-tabs">
+                    <div class="card card-primary card-tabs" style="width:100%;">
+
                         <div class="card-header">
-                            <ul class="nav nav-tabs" id="custom-tabs-one-tab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="vert-tabs-summary-tab" data-toggle="pill"
-                                        href="#vert-tabs-summary" role="tab" aria-controls="vert-tabs-summary"
-                                        aria-selected="true">Campaigns Summary</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="vert-tabs-SMC-tab" data-toggle="pill" href="#vert-tabs-SMC"
-                                        role="tab" aria-controls="vert-tabs-SMC" aria-selected="false">SMC
-                                        Campaigns</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="vert-tabs-IRS-tab" data-toggle="pill" href="#vert-tabs-IRS"
-                                        role="tab" aria-controls="vert-tabs-IRS" aria-selected="false">IRS Campaigns</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="vert-tabs-LLIN-tab" data-toggle="pill"
-                                        href="#vert-tabs-LLIN" role="tab" aria-controls="vert-tabs-LLIN"
-                                        aria-selected="false">LLIN Campaigns</a>
-                                </li>
-                            </ul>
+                            <div class="d-flex justify-content-between">
+
+                                <ul class="nav nav-tabs" id="custom-tabs-one-tab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="vert-tabs-summary-tab" data-toggle="pill"
+                                            href="#vert-tabs-summary" role="tab" aria-controls="vert-tabs-summary"
+                                            aria-selected="true">Campaigns Summary</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="vert-tabs-SMC-tab" data-toggle="pill"
+                                            href="#vert-tabs-SMC" role="tab" aria-controls="vert-tabs-SMC"
+                                            aria-selected="false">SMC
+                                            Campaigns</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="vert-tabs-IRS-tab" data-toggle="pill"
+                                            href="#vert-tabs-IRS" role="tab" aria-controls="vert-tabs-IRS"
+                                            aria-selected="false">IRS Campaigns</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="vert-tabs-LLIN-tab" data-toggle="pill"
+                                            href="#vert-tabs-LLIN" role="tab" aria-controls="vert-tabs-LLIN"
+                                            aria-selected="false">LLIN Campaigns</a>
+                                    </li>
+                                </ul>
+                                <a class="text-sm"
+                                    title="Overview of Campaigns status, targets and main programmatic and financial gaps. <br/>Click on + button under Definitions and Data Sources for details"
+                                    href="#" data-toggle="tooltip" data-html="true">Hover me</a>
+                            </div>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body" style="width:100%; padding: 0.25rem 0.15rem 0.25rem 0.15rem;">
                             <div class="col-12 col-sm-12">
                                 <div class="tab-content" id="vert-tabs-tabContent">
                                     <div class="tab-pane text-left fade show active" id="vert-tabs-summary"
                                         role="tabpanel" aria-labelledby="vert-tabs-summary-tab">
                                         <div class="card card-primary collapsed-card">
                                             <div class="card-header">
-                                                <h6 class="card-title text-sm">Definitions and Data Sources</h6>
+                                                <h6 class="card-title text-md">Definitions and Data
+                                                    Sources</h6>
 
                                                 <div class="card-tools">
                                                     <button type="button" class="btn btn-tool"
                                                         data-card-widget="collapse"><i class="fas fa-plus"></i>
                                                     </button>
-                                                    <button type="button" class="btn btn-tool"
-                                                        data-card-widget="remove">
-                                                        <i class="fas fa-times"></i>
-                                                    </button>
+
                                                 </div>
                                                 <!-- /.card-tools -->
                                             </div>
@@ -87,13 +92,14 @@
                                                     <p>The&nbsp;Campaign&nbsp;Dashboard&nbsp;provides&nbsp;a&nbsp;global&nbsp;overview&nbsp;on&nbsp;the&nbsp;number&nbsp;of&nbsp;planned&nbsp;campaigns&nbsp;bby&nbsp;intervention&nbsp;and&nbsp;status&nbsp;by&nbsp;country.&nbsp;Additional&nbsp;details&nbsp;on&nbsp;the&nbsp;commodity&nbsp;status&nbsp;of&nbsp;essential&nbsp;medications&nbsp;and&nbsp;funding&nbsp;gaps&nbsp;can&nbsp;be&nbsp;found&nbsp;on
                                                         the&nbsp;<a
                                                             href="https://www.globalmalariadashboard.com/dashboard/supply_chain_dashboard_v2"
-                                                            target="_blank">Supply
+                                                            target="_blank" rel="noopener">Supply
                                                             Chain</a>&nbsp;and&nbsp;<a
                                                             href="https://www.globalmalariadashboard.com/dashboard/country_level_finance_gap"
-                                                            target="_blank">Financial&nbsp;GAPS Dashboards</a></p>
+                                                            target="_blank" rel="noopener">Financial&nbsp;GAPS
+                                                            Dashboards</a></p>
                                                     <small>Data Sources Used to Populate this Dashboard: <a
                                                             href="https://endmalaria.org/about-us-governance-partner-committees/countryregional-support-partner-committee-crspc"
-                                                            target="_blank">RBM Partnership CRSPC
+                                                            target="_blank" rel="noopener">RBM Partnership CRSPC
                                                             - Country/Regional Support Partner Committee (CRSPC)
                                                             2021</a></small>
                                                 </blockquote>
@@ -103,7 +109,7 @@
 
                                         <embed
                                             src="https://www.globalmalariadashboard.com/dashboard/summary_campaigns_dashboard"
-                                            width="100%" height="800" style="border:1px solid rgb(15, 19, 241);">
+                                            width="100%" height="800" style="border:1px solid rgb(15, 19, 241); ">
 
                                     </div>
                                     <div class="tab-pane fade" id="vert-tabs-SMC" role="tabpanel"
@@ -117,10 +123,7 @@
                                                         <i class="fas fa-plus"></i>
                                                     </button>
 
-                                                    <button type="button" class="btn btn-tool"
-                                                        data-card-widget="remove">
-                                                        <i class="fas fa-times"></i>
-                                                    </button>
+
                                                 </div>
 
                                                 <!-- /.card-tools -->
@@ -130,7 +133,8 @@
                                                 <blockquote>
                                                     Seasonal Malaria Chemoprevention (SMC) was recommended by <a
                                                         href="https://endmalaria.org/about-us-governance-partner-committees/countryregional-support-partner-committee-crspc"
-                                                        target="_blank">WHO </a> in 2012 to prevent malaria in
+                                                        target="_blank" rel="noopener">WHO </a> in 2012 to prevent
+                                                    malaria in
                                                     children less than 5 years living in areas of highly
                                                     seasonal malaria transmission across the Sahel sub-region of
                                                     Africa. On average, four rounds of treatment are recommended per
@@ -181,9 +185,11 @@
                                                     </p>
                                                     <small>Sources of data for this dashboard: <a
                                                             href="https://endmalaria.org/about-us-governance-partner-committees/countryregional-support-partner-committee-crspc"
-                                                            target="_blank">RBM Partnership Country/Regional Support
+                                                            target="_blank" rel="noopener">RBM Partnership
+                                                            Country/Regional Support
                                                             Partner Committee (CRSPC) 2021 and</a><a
-                                                            href="https://www.mmv.org//" target="_blank"> Medicines
+                                                            href="https://www.mmv.org//" target="_blank" rel="noopener">
+                                                            Medicines
                                                             for Malaria Ventures</a></small>
                                                 </blockquote>
                                             </div>
@@ -204,10 +210,7 @@
                                                     <button type="button" class="btn btn-tool"
                                                         data-card-widget="collapse"><i class="fas fa-plus"></i>
                                                     </button>
-                                                    <button type="button" class="btn btn-tool"
-                                                        data-card-widget="remove">
-                                                        <i class="fas fa-times"></i>
-                                                    </button>
+
                                                 </div>
                                                 <!-- /.card-tools -->
                                             </div>
@@ -258,11 +261,12 @@
                                                     </p>
                                                     <small>Sources of data for this dashboard: <a
                                                             href="https://endmalaria.org/about-us-governance-partner-committees/countryregional-support-partner-committee-crspc"
-                                                            target="_blank">RBM Partnership Country/Regional Support
+                                                            target="_blank" rel="noopener">RBM Partnership
+                                                            Country/Regional Support
                                                             Partner Committee (CRSPC) 2021 and</a><a
-                                                            href="https://pmivectorlink.org/" target="_blank"><a
-                                                                href="https://allianceformalariaprevention.com/working-groups/net-mapping/"
-                                                                target="_blank"> U.S.
+                                                            href="https://pmivectorlink.org/" target="_blank"
+                                                            rel="noopener"><a href="https://pmivectorlink.org/"
+                                                                target="_blank" rel="noopener"> U.S.
                                                                 President’s Malaria Initiative (PMI) Vector Link
                                                                 Project</a></a></small>
                                                 </blockquote>
@@ -287,10 +291,7 @@
                                                     <button type="button" class="btn btn-tool"
                                                         data-card-widget="collapse"><i class="fas fa-plus"></i>
                                                     </button>
-                                                    <button type="button" class="btn btn-tool"
-                                                        data-card-widget="remove">
-                                                        <i class="fas fa-times"></i>
-                                                    </button>
+
                                                 </div>
                                                 <!-- /.card-tools -->
                                             </div>
@@ -344,10 +345,12 @@
                                                     </p>
                                                     <small>Sources of data for this dashboard: <a
                                                             href="https://endmalaria.org/about-us-governance-partner-committees/countryregional-support-partner-committee-crspc"
-                                                            target="_blank">RBM Partnership Country/Regional Support
+                                                            target="_blank" rel="noopener">RBM Partnership
+                                                            Country/Regional Support
                                                             Partner Committee (CRSPC) 2021 &</a><a
                                                             href="https://allianceformalariaprevention.com/working-groups/net-mapping/"
-                                                            target="_blank">Net Mapping project from the Alliance
+                                                            target="_blank" rel="noopener">Net Mapping project from the
+                                                            Alliance
                                                             for Malaria Prevention</a></small>
                                                 </blockquote>
 
@@ -394,7 +397,11 @@
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
     <script src="/assets/js/adminlte.min.js"></script>
-    <script>$('.singlePanel').tooltip();</script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+        });
+    </script>
 
 
 
