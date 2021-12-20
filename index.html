@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Status of Malaria Campaigns</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Global Fund Malaria Grants</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/assets/css/Campaigns_styles_pure.min.css">
 </head>
 
-<body class="hold-transition text-sm" style="width:100%; line-height: 1">
+<body class="hold-transition text-sm" style="width:100%;  line-height: 1">
     <div class="wrapper">
         <!-- Content Wrapper. Contains page content -->
         <div class="container-fluid">
@@ -29,43 +29,35 @@
                         <div class="card-header">
                             <div class="d-flex justify-content-between">
 
+
+
                                 <ul class="nav nav-tabs" id="custom-tabs-one-tab" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active" id="vert-tabs-summary-tab" data-toggle="pill"
-                                            href="#vert-tabs-summary" role="tab" aria-controls="vert-tabs-summary"
-                                            aria-selected="true">Campaigns Summary</a>
+                                        <a class="nav-link active" id="Global-tabs-summary-tab" data-toggle="pill"
+                                            href="#Global-tabs-summary" role="tab" aria-controls="Global-tabs-summary"
+                                            aria-selected="true">Global Fund (GF) Malaria Grants Globally</a>
+
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="vert-tabs-SMC-tab" data-toggle="pill"
-                                            href="#vert-tabs-SMC" role="tab" aria-controls="vert-tabs-SMC"
-                                            aria-selected="false">SMC
-                                            Campaigns</a>
+                                        <a class="nav-link" id="vert-tabs-Country-tab" data-toggle="pill"
+                                            href="#vert-tabs-Country" role="tab" aria-controls="vert-tabs-Country"
+                                            aria-selected="false">GF Malaria Grants by Country</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="vert-tabs-IRS-tab" data-toggle="pill"
-                                            href="#vert-tabs-IRS" role="tab" aria-controls="vert-tabs-IRS"
-                                            aria-selected="false">IRS Campaigns</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="vert-tabs-LLIN-tab" data-toggle="pill"
-                                            href="#vert-tabs-LLIN" role="tab" aria-controls="vert-tabs-LLIN"
-                                            aria-selected="false">LLIN Campaigns</a>
-                                    </li>
+
                                 </ul>
                                 <a class="text-sm"
-                                    title="Overview of Campaigns status, targets and main programmatic and financial gaps. <br/>Click on + button under Definitions and Data Sources for details"
-                                    href="#" data-toggle="tooltip" data-html="true">Hover me</a>
+                                    title="Overview of the GF commitments and disbursements to Malaria Grants at the Global and Country Levels. 1) Under tab GF Malaria Grants by country, use filter on top of the page to select one or mores countries; 2) Click on plus sign at the right of Definitions and Data Sources to expand; 3) On line plots you can select/deselect elements in the legend to show/hide grants or categories"
+                                    href="#" data-toggle="tooltip">Hover me</a>
                             </div>
                         </div>
                         <div class="card-body" style="width:100%; padding: 0.25rem 0.15rem 0.25rem 0.15rem;">
                             <div class="col-12 col-sm-12">
                                 <div class="tab-content" id="vert-tabs-tabContent">
-                                    <div class="tab-pane text-left fade show active" id="vert-tabs-summary"
-                                        role="tabpanel" aria-labelledby="vert-tabs-summary-tab">
+                                    <div class="tab-pane text-left fade show active" id="Global-tabs-summary"
+                                        role="tabpanel" aria-labelledby="Global-tabs-summary-tab">
                                         <div class="card card-primary collapsed-card">
                                             <div class="card-header">
-                                                <h6 class="card-title text-md">Definitions and Data
-                                                    Sources</h6>
+                                                <h6 class="card-title text-sm">Definitions and Data Sources</h6>
 
                                                 <div class="card-tools">
                                                     <button type="button" class="btn btn-tool"
@@ -78,42 +70,55 @@
                                             <!-- /.card-header -->
                                             <div class="card-body" style="display: none;">
                                                 <blockquote>
-                                                    <p text-xm>Campaigns distributing insecticide-treated mosquito
-                                                        nets (ITN), indoor residual spraying (IRS), as well as
-                                                        preventative
-                                                        treatments for children (SMC) and pregnant women have
-                                                        contributed to
-                                                        saving more than 7 million lives and preventing over 1
-                                                        billion new malaria infections since 2000. It is
-                                                        essential that these campaigns and routine community-level
-                                                        interventions are not disrupted to avoid a surge in malaria
-                                                        cases, especially in Africa, a continent which accounts for
+                                                    <p text-xm style="text-align: left;">The <a
+                                                            title="The Global Fund (GF)"
+                                                            href="https://www.theglobalfund.org/en/"
+                                                            target="_blank">Global Fund</a> (GF) provides 56% of all
+                                                        international financing for malaria programs (39% of total
+                                                        available resources) and has invested more than 14.7
+                                                        billion USD in malaria control programs. <span
+                                                            style="color: #808080;">Since 2020, the Global Fund has
+                                                            provided additional funding through the COVID-19 Response
+                                                            Mechanism to countries to mitigate the impact of
+                                                            COVID-19 on the malaria response.</span> GF contribution is
+                                                        particularly important for Africa, a continent which accounts
+                                                        for
                                                         over 90% of the global malaria burden.</p>
-                                                    <p>The&nbsp;Campaign&nbsp;Dashboard&nbsp;provides&nbsp;a&nbsp;global&nbsp;overview&nbsp;on&nbsp;the&nbsp;number&nbsp;of&nbsp;planned&nbsp;campaigns&nbsp;bby&nbsp;intervention&nbsp;and&nbsp;status&nbsp;by&nbsp;country.&nbsp;Additional&nbsp;details&nbsp;on&nbsp;the&nbsp;commodity&nbsp;status&nbsp;of&nbsp;essential&nbsp;medications&nbsp;and&nbsp;funding&nbsp;gaps&nbsp;can&nbsp;be&nbsp;found&nbsp;on
-                                                        the&nbsp;<a
-                                                            href="https://www.globalmalariadashboard.com/dashboard/supply_chain_dashboard_v2"
-                                                            target="_blank" rel="noopener">Supply
-                                                            Chain</a>&nbsp;and&nbsp;<a
-                                                            href="https://www.globalmalariadashboard.com/dashboard/country_level_finance_gap"
-                                                            target="_blank" rel="noopener">Financial&nbsp;GAPS
-                                                            Dashboards</a></p>
-                                                    <small>Data Sources Used to Populate this Dashboard: <a
-                                                            href="https://endmalaria.org/about-us-governance-partner-committees/countryregional-support-partner-committee-crspc"
-                                                            target="_blank" rel="noopener">RBM Partnership CRSPC
-                                                            - Country/Regional Support Partner Committee (CRSPC)
-                                                            2021</a></small>
+                                                    <p>The formula for allocating funds to country programs is based on
+                                                        each country&rsquo;s disease burden (as recommended by
+                                                        technical partners) and economic capacity (measured by GNI per
+                                                        capita). It also takes into account maximum and minimum
+                                                        shares, adjustments for other external financing, and needs for
+                                                        scale up and paced reductions. Importantly, unused funds
+                                                        remaining at the original grant end date will be returned to the
+                                                        Global Fund and used for portfolio optimization
+                                                        investments through the allocation period. It is therefore
+                                                        important to keep regular track of the proportion of unused
+                                                        funds for each grant. The scorecard at the end of this dashboard
+                                                        provides a proxy to monitor grant absorbance. It is
+                                                        defined as the ratio between cumulated disbursements over last
+                                                        two quarters and cumated budgets planned for the same
+                                                        period. To better analyze this proxy we need to take into
+                                                        account the date of the end of the grant.</p>
+                                                    <small style="color: #5e9ca0; text-align: left;"><span
+                                                            style="color: #808080;">This Dashboard summarize investments
+                                                            in
+                                                            Malaria Programs by the GF, using publicly available GF Data
+                                                            accessed trough the <a title="Global Fund Data API"
+                                                                href="https://data-service.theglobalfund.org/api"
+                                                                target="_blank">Global Fund Data API</a>.</span></small>
                                                 </blockquote>
                                             </div>
                                             <!-- /.card-body -->
                                         </div>
 
                                         <embed
-                                            src="https://www.globalmalariadashboard.com/dashboard/summary_campaigns_dashboard"
-                                            width="100%" height="800" style="border:1px solid rgb(15, 19, 241); ">
+                                            src="https://www.globalmalariadashboard.com/dashboard/global_gf_dashboard"
+                                            width="100%" height="6000" style="border:1px solid rgb(15, 19, 241);">
 
                                     </div>
-                                    <div class="tab-pane fade" id="vert-tabs-SMC" role="tabpanel"
-                                        aria-labelledby="vert-tabs-SMC-tab">
+                                    <div class="tab-pane fade" id="vert-tabs-Country" role="tabpanel"
+                                        aria-labelledby="vert-tabs-Country-tab">
                                         <div class="card card-primary collapsed-card">
                                             <div class="card-header">
                                                 <h6 class="card-title text-sm">Definitions and Data sources</h6>
@@ -131,236 +136,48 @@
                                             <!-- /.card-header -->
                                             <div class="card-body" style="display: none;">
                                                 <blockquote>
-                                                    Seasonal Malaria Chemoprevention (SMC) was recommended by <a
-                                                        href="https://endmalaria.org/about-us-governance-partner-committees/countryregional-support-partner-committee-crspc"
-                                                        target="_blank" rel="noopener">WHO </a> in 2012 to prevent
-                                                    malaria in
-                                                    children less than 5 years living in areas of highly
-                                                    seasonal malaria transmission across the Sahel sub-region of
-                                                    Africa. On average, four rounds of treatment are recommended per
-                                                    child (one round per month during the rainy season). It is a safe
-                                                    and cost-effective strategy that
-                                                    can be easily administered by health workers and community
-                                                    health workers at the community level. As such, it has
-                                                    been well accepted and widely deployed by national malaria
-                                                    control programs (NMCPs), government decision-makers, and
-                                                    local communities. In 2014, fewer than 5% (~3 million) of all
-                                                    eligible children benefited from SMC<p>
-                                                        <span style="font-family:Arial,Helvetica,sans-serif"><span
-                                                                style="font-size:11px"><strong>Definitions of
-                                                                    Campaign Status</strong></span></span>
-                                                    </p>
-                                                    <p>
-                                                        <span style="font-family:Arial,Helvetica,sans-serif"><span
-                                                                style="font-size:11px"><strong><span
-                                                                        style="color: #eb1313">Off
-                                                                        Track:</span></strong>Significant concerns
-                                                                and campaign at risk of
-                                                                significant delay/not taking place in the calendar
-                                                                year planned; intervention required to address
-                                                                bottlenecks and move country planning back to on
-                                                                track.</span></span>
-                                                    </p>
-                                                    <p>
-                                                        <span style="font-family:Arial,Helvetica,sans-serif"><span
-                                                                style="font-size:11px"><strong><span
-                                                                        style="color:#0bb327">At
-                                                                        Risk:</span></strong>Some risk that the
-                                                                campaign wil run into
-                                                                delays/not take place in calendar year planned;a
-                                                                situation not yet critical but important to watch
-                                                                and
-                                                                ensure that the bottlenecks do not grow and move the
-                                                                country off-track</span></span>
-                                                    </p>
-                                                    <p>
-                                                        <span style="font-family:Arial,Helvetica,sans-serif"><span
-                                                                style="font-size:11px"><span
-                                                                    style="color:#16a085"><strong>OnTrack:</strong></span>The
-                                                                campaign is on track to take place in the
-                                                                same Calendar year a initially planned/there are no
-                                                                significant bottlenecks identified as of the last
-                                                                report date that would move the campaign off
-                                                                track</span></span>
-                                                    </p>
-                                                    <small>Sources of data for this dashboard: <a
-                                                            href="https://endmalaria.org/about-us-governance-partner-committees/countryregional-support-partner-committee-crspc"
-                                                            target="_blank" rel="noopener">RBM Partnership
-                                                            Country/Regional Support
-                                                            Partner Committee (CRSPC) 2021 and</a><a
-                                                            href="https://www.mmv.org//" target="_blank" rel="noopener">
-                                                            Medicines
-                                                            for Malaria Ventures</a></small>
+                                                    <p style="text-align: left;">In this Dashboard we provide
+                                                        information on GF grants to Malaria at the country level.
+                                                        The filter box on the top allows selecting one or multiple
+                                                        countries for analysis.&nbsp;</p>
+                                                    <p style="text-align: left;">The Cumulative Budgets vs. Cumulative
+                                                        Disbursements for Active Grants Plot, is aimed to
+                                                        track potential Gaps between quarterly budgets and
+                                                        disboursements. It can be seen as a dynamic proxy for Grant
+                                                        absorbance (formally defined in terms of the expenditure) or to
+                                                        monitor unused funds per Grant. Note that unused
+                                                        funds remaining at the original grant end date will be returned
+                                                        to the Global Fund and used for portfolio
+                                                        optimization investments through the allocation period.
+                                                        Therefore, the ratio disboursements to budgets should be
+                                                        as close as possible to one particularly near the grant end
+                                                        date. Quarterly ratios are shown on the bar plot
+                                                        entitled "Cumulative Budgets vs. Cumulative Disbursements for
+                                                        Active Grants". Note that this ratio can be very
+                                                        low if the grant budgeted amount is much larger than the signed
+                                                        amount. Therefore, the table at the end of the
+                                                        Dashboard also includes the disbursements to committments ratio
+                                                        that can be used as an alternative but less
+                                                        dynamic proxy.</p>
+                                                    <p>&nbsp;</p>
+                                                    <small style="color: #5e9ca0; text-align: left;"><span
+                                                            style="color: #808080;">This Dashboard summarize investments
+                                                            in Malaria Programs by the GF for one or multiple selected
+                                                            countries, using publicly available GF Data
+                                                            accessed trough the <a title="Global Fund Data API"
+                                                                href="https://data-service.theglobalfund.org/api"
+                                                                target="_blank">Global Fund Data API</a>.</span></small>
                                                 </blockquote>
                                             </div>
                                             <!-- /.card-body -->
                                         </div>
-                                        <embed
-                                            src="https://www.globalmalariadashboard.com/dashboard/smc_campaigns_dashboard"
-                                            width="100%" height="800" style="border:1px solid rgb(15, 19, 241);">
+                                        <embed src="https://www.globalmalariadashboard.com/dashboard/globalfund_grants"
+                                            width="100%" height="6000" style="border:1px solid rgb(15, 19, 241);">
 
                                     </div>
-                                    <div class="tab-pane fade" id="vert-tabs-IRS" role="tabpanel"
-                                        aria-labelledby="vert-tabs-IRS-tab">
-                                        <div class="card card-primary collapsed-card">
-                                            <div class="card-header">
-                                                <h6 class="card-title text-sm">Definitions and Data sources</h6>
-
-                                                <div class="card-tools">
-                                                    <button type="button" class="btn btn-tool"
-                                                        data-card-widget="collapse"><i class="fas fa-plus"></i>
-                                                    </button>
-
-                                                </div>
-                                                <!-- /.card-tools -->
-                                            </div>
-                                            <!-- /.card-header -->
-                                            <div class="card-body" style="display: none;">
-                                                <blockquote>
-                                                    Indoor residual spraying or IRS is an effective intervention to
-                                                    prevent Malaria transmission consisting on spraying
-                                                    the inside of dwellings with a dilute solution of insecticide to
-                                                    kill or repel mosquitoes.
-                                                    <p>
-                                                        <span style="font-family:Arial,Helvetica,sans-serif"><span
-                                                                style="font-size:11px"><strong>Definitions of
-                                                                    Campaign Status</strong></span></span>
-                                                    </p>
-                                                    <p>
-                                                        <span style="font-family:Arial,Helvetica,sans-serif"><span
-                                                                style="font-size:11px"><strong><span
-                                                                        style="color:#eb1313">Off
-                                                                        Track:</span></strong>Significant concerns
-                                                                and campaign at risk of
-                                                                significant delay/not taking place in the calendar
-                                                                year planned; intervention required to address
-                                                                bottlenecks and move country planning back to on
-                                                                track.</span></span>
-                                                    </p>
-                                                    <p>
-                                                        <span style="font-family:Arial,Helvetica,sans-serif"><span
-                                                                style="font-size:11px"><strong><span
-                                                                        style="color:#0bb327">At
-                                                                        Risk:</span></strong>Some risk that the
-                                                                campaign wil run into
-                                                                delays/not take place in calendar year planned;a
-                                                                situation not yet critical but important to watch
-                                                                and
-                                                                ensure that the bottlenecks do not grow and move the
-                                                                country off-track</span></span>
-                                                    </p>
-                                                    <p>
-                                                        <span style="font-family:Arial,Helvetica,sans-serif"><span
-                                                                style="font-size:11px"><span
-                                                                    style="color:#16a085"><strong>OnTrack:</strong></span>The
-                                                                campaign is on track to take place in the
-                                                                same Calendar year a initially planned/there are no
-                                                                significant bottlenecks identified as of the last
-                                                                report date that would move the campaign off
-                                                                track</span></span>
-                                                    </p>
-                                                    <small>Sources of data for this dashboard: <a
-                                                            href="https://endmalaria.org/about-us-governance-partner-committees/countryregional-support-partner-committee-crspc"
-                                                            target="_blank" rel="noopener">RBM Partnership
-                                                            Country/Regional Support
-                                                            Partner Committee (CRSPC) 2021 and</a><a
-                                                            href="https://pmivectorlink.org/" target="_blank"
-                                                            rel="noopener"><a href="https://pmivectorlink.org/"
-                                                                target="_blank" rel="noopener"> U.S.
-                                                                President’s Malaria Initiative (PMI) Vector Link
-                                                                Project</a></a></small>
-                                                </blockquote>
-
-                                            </div>
-                                            <!-- /.card-body -->
-                                        </div>
-
-                                        <embed src="https://www.globalmalariadashboard.com/dashboard/irs_campaigns"
-                                            width="100%" height="800" style="border:1px solid rgb(15, 19, 241);">
 
 
 
-                                    </div>
-                                    <div class="tab-pane fade" id="vert-tabs-LLIN" role="tabpanel"
-                                        aria-labelledby="vert-tabs-LLIN-tab">
-                                        <div class="card card-primary collapsed-card">
-                                            <div class="card-header">
-                                                <h6 class="card-title text-sm">Definitions and Data sources</h6>
-
-                                                <div class="card-tools">
-                                                    <button type="button" class="btn btn-tool"
-                                                        data-card-widget="collapse"><i class="fas fa-plus"></i>
-                                                    </button>
-
-                                                </div>
-                                                <!-- /.card-tools -->
-                                            </div>
-                                            <!-- /.card-header -->
-                                            <div class="card-body" style="display: none;">
-                                                <blockquote>
-                                                    Insecticide-treated bed nets (ITNs) reduce malaria illness,
-                                                    severe disease, and death due to malaria in endemic
-                                                    regions. Long-lasting insecticide-treated nets (LLINs) maintain
-                                                    effective levels of insecticide for at least 3
-                                                    years, even after repeated washing. WHO now recommends that
-                                                    LLINs be distributed to and used by all people
-                                                    (“universal coverage”) in malarious areas every 3 years.
-                                                    <p>
-                                                        <span style="font-family:Arial,Helvetica,sans-serif"><span
-                                                                style="font-size:11px"><strong>Definitions of
-                                                                    Campaign Status</strong></span></span>
-                                                    </p>
-                                                    <p>
-                                                        <span style="font-family:Arial,Helvetica,sans-serif"><span
-                                                                style="font-size:11px"><strong><span
-                                                                        style="color:#eb1313">Off
-                                                                        Track:</span></strong>Significant concerns
-                                                                and campaign at risk of
-                                                                significant delay/not taking place in the calendar
-                                                                year planned; intervention required to address
-                                                                bottlenecks and move country planning back to on
-                                                                track.</span></span>
-                                                    </p>
-                                                    <p>
-                                                        <span style="font-family:Arial,Helvetica,sans-serif"><span
-                                                                style="font-size:11px"><strong><span
-                                                                        style="color:#f39c12">At
-                                                                        Risk:</span></strong>Some risk that the
-                                                                campaign wil run into
-                                                                delays/not take place in calendar year planned;a
-                                                                situation not yet critical but important to watch
-                                                                and
-                                                                ensure that the bottlenecks do not grow and move the
-                                                                country off-track</span></span>
-                                                    </p>
-                                                    <p>
-                                                        <span style="font-family:Arial,Helvetica,sans-serif"><span
-                                                                style="font-size:11px"><span
-                                                                    style="color:#0bb327"><strong>OnTrack:</strong></span>The
-                                                                campaign is on track to take place in the
-                                                                same Calendar year a initially planned/there are no
-                                                                significant bottlenecks identified as of the last
-                                                                report date that would move the campaign off
-                                                                track</span></span>
-                                                    </p>
-                                                    <small>Sources of data for this dashboard: <a
-                                                            href="https://endmalaria.org/about-us-governance-partner-committees/countryregional-support-partner-committee-crspc"
-                                                            target="_blank" rel="noopener">RBM Partnership
-                                                            Country/Regional Support
-                                                            Partner Committee (CRSPC) 2021 &</a><a
-                                                            href="https://allianceformalariaprevention.com/working-groups/net-mapping/"
-                                                            target="_blank" rel="noopener">Net Mapping project from the
-                                                            Alliance
-                                                            for Malaria Prevention</a></small>
-                                                </blockquote>
-
-                                            </div>
-                                            <!-- /.card-body -->
-                                        </div>
-                                        <embed src="https://www.globalmalariadashboard.com/dashboard/llin_dashboard"
-                                            width="100%" height="800" style="border:1px solid rgb(15, 19, 241);">
-
-                                    </div>
 
 
 
@@ -382,7 +199,8 @@
         <!-- /.content-wrapper -->
         <footer class="main-footer">
             <div class="float-right d-none d-sm-block">
-                <b>Last Updated:</b> October, 2021
+                <b>Last Updated:<span id="date-time"></span></b>
+
             </div>
 
         </footer>
@@ -400,6 +218,9 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+            var today = new Date();
+            var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+            document.getElementById('date-time').innerHTML = date;
         });
     </script>
 
